@@ -9,7 +9,7 @@ public class MonthDayExample
 		MonthDay month = MonthDay.now();
 		LocalDate date = month.atYear(2020);
 		System.out.println(date);
-		boolean a = month.isValidYear(2018);
+		boolean a = month.isValidYear(2018);// boolean is used to check year is valid
 		System.out.println(a);
 		long b = month.get(ChronoField.MONTH_OF_YEAR);
 		System.out.println(b);
